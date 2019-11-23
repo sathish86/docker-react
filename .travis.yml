@@ -7,7 +7,3 @@ before_install:
 
 script:
   - docker run -e CI=true sathish86/docker-react npm run test
-
-
-deploy:
-  provider: elasticbeanstalk
